@@ -2,6 +2,7 @@
 monolingual sentence similarity measure
 
 Please cite our NAACL2018 paper if you use our measure.
+
 `@InProceedings{choshen:2018,
   author    = {Choshen, Leshem  and  Abend, Omri},
   title     = {Reference-less Measure of Faithfulness for Grammatical Error Correction},
@@ -13,6 +14,7 @@ Please cite our NAACL2018 paper if you use our measure.
 `
 
 As USim uses currently the TUPA parser it should be installed
+
 `pip install tupa`
 
 Usage example:
