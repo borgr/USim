@@ -21,12 +21,12 @@ you should also have a trained model, already trained ones could be acquired fro
 
 In addition ucca and the modules for required align submodule should also be installed
 
-`
+```
 pip install ucca
 pip install zss
 pip install distance
 pip install munkres
-`
+```
 
 
 Usage example (assuming parser module was changed in the code, otherwise add -p flag):
