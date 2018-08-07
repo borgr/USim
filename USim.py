@@ -10,17 +10,10 @@ from functools import reduce
 import operator
 import platform
 import re
-
-TUPA_DIR = '/cs/labs/oabend/borgr/tupa/'
-UCCA_DIR = TUPA_DIR + 'ucca'
-sys.path.append(UCCA_DIR)
-sys.path.append(UCCA_DIR + '/scripts/distances')
-sys.path.append(UCCA_DIR + '/ucca')
-
 from ucca.ioutil import file2passage
 import codecs
 
-import align
+import scripts.distances.align as align
 from ucca.ioutil import passage2file
 from ucca.convert import from_text
 
@@ -329,7 +322,7 @@ if __name__ == '__main__':
     parser.add_argument('-rf', '--reference_files', nargs='+')
     parser.add_argument('-ss', '--source_sentences', nargs='+')
     parser.add_argument('-rs', '--reference_sentences', nargs='+')
-    parser.add_argument('-p', "--parser_path")
+    parser.add_argument('-p', "--parser_path", help="The path to the tupa model to be used, if no parameter is passed the hard-coded USim.PARSER_PATH path would be used")
 
     args, unknown = parser.parse_known_args()
     PARSER_PATH = args.parser_path
