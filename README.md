@@ -17,6 +17,8 @@ As USim uses currently the TUPA parser it should be installed
 
 `pip install tupa`
 
+you should also have a trained model, already trained ones could be acquired from [here](https://github.com/danielhers/tupa)
+
 In addition ucca and the modules for required align submodule should also be installed
 
 `
@@ -27,5 +29,5 @@ pip install munkres
 `
 
 
-Usage example:
+Usage example (assuming parser module was changed in the code, otherwise add -p flag):
 python USim.py parse out.out -ss "I love rusty spoons", "nothing matters" -rs "he shares pretty cars", "nothing indeed"
