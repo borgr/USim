@@ -17,5 +17,15 @@ As USim uses currently the TUPA parser it should be installed
 
 `pip install tupa`
 
+In addition ucca and the modules for required align submodule should also be installed
+
+`
+pip install ucca
+pip install zss
+pip install distance
+pip install munkres
+`
+
+
 Usage example:
 python USim.py parse out.out -ss "I love rusty spoons", "nothing matters" -rs "he shares pretty cars", "nothing indeed"
