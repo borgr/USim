@@ -17,7 +17,7 @@ As USim uses currently the TUPA parser it should be installed
 
 `pip install tupa`
 
-you should also have a trained model, already trained ones could be acquired from [here](https://github.com/danielhers/tupa)
+you should also have a trained model, pretrained ones could be acquired from [here](https://github.com/danielhers/tupa).
 
 In addition ucca and the modules for required align submodule should also be installed
 
