@@ -1,7 +1,7 @@
 # USim
 monolingual sentence similarity measure
 
-Please cite our NAACL2018 paper if you use our measure.
+Please cite our [NAACL2018 paper](http://www.aclweb.org/anthology/N18-2020) if you use our measure or annotations.
 
 `@inproceedings{choshen2018reference,
   title={Reference-less Measure of Faithfulness for Grammatical Error Correction},
